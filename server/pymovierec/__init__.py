@@ -4,7 +4,11 @@
 Initalize the movie recommendation module.
 
 :author:    Davor Risteski
+<<<<<<< HEAD
 :version:	05.13.2019
+=======
+:version:	05.08.2019
+>>>>>>> 52f313985fc6211210710917de4ceb64e489c434
 """
 
 import argparse
@@ -14,29 +18,42 @@ import time
 import engine
 import pubsub
 import settings as G
+<<<<<<< HEAD
 from util import decorated_print as print
 
 run_proc = True
+=======
+>>>>>>> 52f313985fc6211210710917de4ceb64e489c434
 
 def _exit(sig=None, frame=None):
     """
     Interrupt handler.
     """
+<<<<<<< HEAD
     global run_proc
     if(run_proc):
         print("Recommendation engine exiting...")
         print("Finishing one last run so we can exit gracefully.")
     run_proc = False
     # sys.exit(0)
+=======
+    print("Recommendation engine exiting...")
+    sys.exit(0)
+>>>>>>> 52f313985fc6211210710917de4ceb64e489c434
 
 def _daemonize():
     """
     Daemonizes the module. Uses pub/sub Redis schema.
     """
+<<<<<<< HEAD
     global run_proc
     try:
         print("Persisting process...")
         signal.signal(signal.SIGTERM, _exit)
+=======
+    try:
+        print("Persisting process...")
+>>>>>>> 52f313985fc6211210710917de4ceb64e489c434
         signal.signal(signal.SIGINT, _exit)
 
         if(G.VERBOSE):
@@ -46,10 +63,15 @@ def _daemonize():
         if(G.VERBOSE):
             print("Building wrapper...")
         ps = pubsub.Wrapper(en)
+<<<<<<< HEAD
 
         print("Ready. Waiting for requests...")
 
         while run_proc:
+=======
+        
+        while True:
+>>>>>>> 52f313985fc6211210710917de4ceb64e489c434
             ps.heartbeat()
             time.sleep(10)
     except KeyboardInterrupt:

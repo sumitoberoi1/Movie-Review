@@ -4,7 +4,10 @@ import os
 import json
 import pandas
 import settings as G
+<<<<<<< HEAD
 from util import decorated_print as print
+=======
+>>>>>>> 52f313985fc6211210710917de4ceb64e489c434
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.metrics.pairwise import linear_kernel, cosine_similarity
 
@@ -13,7 +16,11 @@ class Engine:
     Represents a trained engine to use when classifying.
 
     :author:    Davor Risteski
+<<<<<<< HEAD
     :version:   05.13.2019
+=======
+    :version:   05.08.2019
+>>>>>>> 52f313985fc6211210710917de4ceb64e489c434
     """
 
     def __init__(self):
@@ -41,7 +48,11 @@ class Engine:
         self.cosine_sim2  = cosine_similarity( self.count_matrix, self.count_matrix )
         self.indices      = pandas.Series( self.metadata.index, index=self.metadata['movie'] ).drop_duplicates()
 
+<<<<<<< HEAD
     def getRecommendation(self, movie, take = 11, json=False):
+=======
+    def getRecommendation(self, movie, take = 3, json=False):
+>>>>>>> 52f313985fc6211210710917de4ceb64e489c434
         """
         Retrieves a recommendation for a single movie.
 

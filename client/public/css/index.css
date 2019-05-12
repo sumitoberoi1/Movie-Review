@@ -38,11 +38,14 @@ code {
   color: #61dafb;
 }
 
+<<<<<<< HEAD
 .movie-details-wrapper {
   padding: 0px;
   margin: -10px;
 }
 
+=======
+>>>>>>> 52f313985fc6211210710917de4ceb64e489c434
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -51,6 +54,7 @@ code {
     transform: rotate(360deg);
   }
 }
+<<<<<<< HEAD
 
 .vertical-center {
   vertical-align: middle;
@@ -136,3 +140,5 @@ body {
 {
   text-align: right;
 }
+=======
+>>>>>>> 52f313985fc6211210710917de4ceb64e489c434

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
 import Network from "./Network";
 
@@ -66,3 +67,22 @@ class MovieDescription extends Component {
 }
 
 export default MovieDescription;
+=======
+
+import React from 'react';
+
+/**
+ * Movie description component.
+ */
+export default class MovieDescription extends React.Component {
+
+    render() {
+        return(
+            <div>
+                <h1>Placeholder</h1>
+            </div>
+        );
+    }
+
+}
+>>>>>>> 52f313985fc6211210710917de4ceb64e489c434

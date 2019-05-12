@@ -29,6 +29,7 @@ NOTES/
 # Pycache
 __pycache__/
 **/__pycache__/**
+<<<<<<< HEAD
 
 # Dave made a client and it's badder than yours!
 client-bad/
@@ -36,3 +37,5 @@ client-bad/
 # Temporarily? Ignore Static Image Assets
 server/static/images/**
 !server/static/images/a_placeholder.svg
+=======
+>>>>>>> 52f313985fc6211210710917de4ceb64e489c434

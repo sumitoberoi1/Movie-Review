@@ -7,6 +7,7 @@
   "scripts": {
     "start": "node app.js",
     "test": "echo \"No tests attached.\"",
+<<<<<<< HEAD
     "pip": "pip3 install -r ./pymovierec/requirements.txt"
   },
   "dependencies": {
@@ -26,5 +27,13 @@
     "redis-json": "^2.2.2",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
+=======
+    "build": "echo \"Nothing to build.\""
+  },
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "express": "^4.16.4",
+    "redis": "^2.8.0"
+>>>>>>> 52f313985fc6211210710917de4ceb64e489c434
   }
 }

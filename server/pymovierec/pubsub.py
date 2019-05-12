@@ -3,7 +3,10 @@
 import json
 import redis
 import settings as G
+<<<<<<< HEAD
 from util import decorated_print as print
+=======
+>>>>>>> 52f313985fc6211210710917de4ceb64e489c434
 
 class Wrapper:
     """
@@ -11,7 +14,11 @@ class Wrapper:
     already running.
 
     :author:    Davor Risteski
+<<<<<<< HEAD
     :version:   05.13.2019
+=======
+    :version:   05.08.2019
+>>>>>>> 52f313985fc6211210710917de4ceb64e489c434
     """
 
     def __init__(self, engine):
@@ -73,9 +80,12 @@ class Wrapper:
 
                 # Remove codeword and strip whitespaces.
                 request = request[4:].strip()
+<<<<<<< HEAD
 
                 print("Received request:", request)
 
+=======
+>>>>>>> 52f313985fc6211210710917de4ceb64e489c434
                 # To array about all commas.
                 request = request.split(",")
 
