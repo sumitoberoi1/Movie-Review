@@ -5,7 +5,6 @@
   "description": "CS554 Final Project Client",
   "license": "",
   "dependencies": {
-<<<<<<< HEAD
     "axios": "^0.18.0",
     "firebase": "^5.11.0",
     "react": "^16.8.6",
@@ -16,16 +15,6 @@
     "react-speech-recognition": "^2.0.1",
     "recompose": "^0.30.0",
     "save": "^2.3.3"
-=======
-    "firebase": "^5.11.0",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8",
-    "react-speech-recognition": "^2.0.1",
-    "recompose": "^0.30.0"
->>>>>>> 52f313985fc6211210710917de4ceb64e489c434
   },
   "scripts": {
     "start": "react-scripts start",
