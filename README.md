@@ -1,17 +1,6 @@
 
 # Final Project
 
-> Class:  CS-554-A
-> Group:  1
-
-> Authors:
-> * P Athiban
-> * Chunli Liu
-> * Sumit Oberoi
-> * Davor Risteski
-> * Rohnit Shetty
-
-> REPO: https://github.com/edgesdarkly/cs554finalproject
 
 # Server
 
